@@ -1,0 +1,144 @@
+@font-face {
+  font-family: fontREG;
+  src: url(/assets/fonts/Montserrat-Regular.ttf);
+}
+html {
+  cursor: url('/assets/Mousesmall.jpeg') , auto;
+}
+body {
+  font-family: fontREG;
+}
+.navBar{
+ background-color: #27187E;
+display: flex;
+  justify-content: space-evenly;
+ }
+   .navBar a{
+     color:white;
+  text-decoration: none;
+ text-align: center;
+  font-size: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+   }
+.navBar a:hover{
+   color:pink;
+}
+
+.container{
+  background:white;
+  margin:auto;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  text-align:center;
+  max-width: 1000px;
+}
+.header{
+  background-image:url('/assets/florida.jpg');
+  background-size: cover;
+
+}
+
+.
+
+
+h1 {
+  color: white;
+  margin: 5em;
+  background:black;
+}
+
+.gallery-layout {
+  display:flex;
+  flex-wrap: wrap;
+  gap: .5em;
+  justify-content: center;
+}
+
+.pic{
+  height: 200px;
+  width: 200px;
+}
+
+
+.beach{
+display:flex;
+  justify-content: center;
+  flex-direction: row;
+  padding-top: 20px;
+  height: 350px;
+  object-fit: cover;
+  
+}
+.overlayText{
+ top: 32%;
+left: 22%;
+  text-align: center;
+font-size: 40px;
+  color: white;
+position: absolute;
+background-color: black;
+padding-left: 300px;
+padding-right: 300px;
+}
+
+.wynwoodWalls{
+  font-size: 30px;
+}
+
+.graffiti{
+  font-size: 25px;
+}
+
+.orgDes{
+  font-size: 20px;
+}
+
+.link1{
+  font-size: 20px;
+}
+
+.gallerytitle{
+  font-size: 25px;
+}
+
+.start{
+  font-size: 25px;
+}
+
+.startdes{
+  font-size: 20px;
+}
+
+.find{
+  font-size: 20px;
+}
+
+body{
+  background-color: lightgreen;
+}
+
+.pic:hover{
+  transform:scale(1.25);
+}
+
+.overlayText:hover{
+  color: lightgreen;
+}
+
+.start:hover{
+  text-decoration: underline;
+}
+
+.gallerytitle:hover{
+  text-decoration: underline;
+}
+
+.wynwoodWalls:hover{
+  text-decoration: underline;
+}
+
+.graffiti:hover{
+  text-decoration: underline;
+}

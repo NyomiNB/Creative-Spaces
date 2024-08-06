@@ -1,0 +1,214 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body{
+  font-family: fontREG;
+  background-color: #D6F5FF
+}
+ .navBar{
+ background-color: #27187E;
+display: flex;
+  justify-content: space-evenly;
+ }
+   .navBar a{
+     color:white;
+  text-decoration: none;
+ text-align: center;
+  font-size: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+   }
+.navBar a:hover{
+   color:pink;
+}
+.artContainer img{
+       height:200px;
+  width:100%;
+   object-fit: cover;
+ }
+.artContainer{
+ 
+display:flex;
+/* align-items: stretch;
+  flex-direction: row; */
+  justify-content: center;
+  flex-direction: row;
+  padding-top: 20px;
+}
+.overlayText p {
+  padding: .5em;
+}
+.overlayText{
+ text-align: center;  
+ top:22%;
+ 
+font-size: 30px;
+  color: white;
+position: absolute;
+background-color: black;
+  transition: .25s ease-in;
+}
+.overlayText:hover{
+  letter-spacing: 5px;
+ text-align: center;  
+ top:22%;
+font-size: 30px;
+  color: white;
+position: absolute;
+background-color: black;
+  cursor: default;
+}
+
+.aboutus{
+  text-align:center;
+  color: #27187E;
+  font-size: 40px;
+  text-decoration: underline;
+  margin-top:2em;
+}
+
+.missionHeader{
+   color: #27187E;
+  text-align: center;
+  font-size: 30px;
+  text-decoration: underline;
+}
+
+.missionDescription{
+  padding-left:160px;
+  padding-right:160px;
+  font-size: 20px;
+}
+
+
+.creators{
+  color: #27187E;
+  text-align: center;
+  font-size: 30px;
+  text-decoration: underline;
+}
+
+.creatornames{
+  padding-left:160px;
+  padding-right: 160px;
+  font-size: 20px;
+}
+
+.photo {
+  display:flex;
+  gap: 1em;
+  flex-wrap: wrap;
+  justify-content:center;
+}
+
+.section {
+  text-align:center;
+  max-width: 200px;
+}
+
+ul{
+  padding-left: 190px;
+  font-size: 20px;
+}
+
+.ourImages img{
+  height:200px;
+  width:175px;
+  object-fit: cover;
+
+}
+.creator-headers{
+     float: right;
+
+}
+h1{
+font-size: 15px;
+  font-family:fontBOLD
+}
+
+p{
+font-size: 12px;
+  font-family:fontREG;
+}
+
+@font-face {
+  font-family: fontBOLD;
+  src: url(/assets/fonts/Montserrat-Bold.ttf);
+}
+@font-face {
+  font-family: fontREG;
+  src: url(/assets/fonts/Montserrat-Regular.ttf);
+}
+
+.Nyomi-header {
+  font-family: fontBOLD;
+}
+
+.nyomi {
+  font-family: fontBOLD;
+}
+
+ 
+
+/* .photo{
+  display:flex;
+  justify-content: center;
+  flex-direction: row;
+  padding-top: 20px;
+} */
+
+/* .Aarohee{
+  padding-right: 40px;
+}
+*/
+button{
+border:none;
+   font-family: fontREG;
+   background-color:#D6F5FF;
+   font-size: 15px;
+  color:black
+ }
+button:hover{
+  font-family: fontREG;
+     color:white;
+   background-color:  #1667e1;
+cursor:pointer;
+  font-size: 15px;
+
+}
+
+/* .Maria{
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.Estefania{
+  padding-left: 40px;
+  padding-right: 40px;
+} */
+
+.Maria-Header a {
+  text-decoration:none;
+  color: black;
+}
+
+.Maria-Header:hover {
+  background-color: white;
+}
+
+.painting:hover{
+  color: blue;
+  font-weight: bold;
+}
+
+.sculptures:hover{
+  color: green;
+  font-weight: bold;
+}
+
+.music:hover{
+  color: purple;
+  font-weight: bold;
+}

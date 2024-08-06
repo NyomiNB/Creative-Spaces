@@ -1,0 +1,140 @@
+@font-face {
+  font-family: fontREG;
+  src: url(/assets/fonts/Montserrat-Regular.ttf);
+}
+
+body {
+  font-family: fontREG;
+}
+.navBar{
+ background-color: #27187E;
+display: flex;
+  justify-content: space-evenly;
+ }
+   .navBar a{
+  color:white;
+  text-decoration: none;
+  text-align: center;
+  font-size: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+   }
+.navBar a:hover{
+   color:pink;
+}
+.top img{
+  max-width:
+  height:
+}
+body {
+  background: linear-gradient(99.6deg, rgb(112, 128, 152) 10.6%, rgb(242, 227, 234) 32.9%, rgb(234, 202, 213) 52.7%, rgb(220, 227, 239) 72.8%, rgb(185, 205, 227) 81.1%, rgb(154, 180, 212) 102.4%);
+}
+.container{
+  background: radial-gradient(circle at 0% 0.5%, rgb(241, 241, 242) 0.1%, rgb(224, 226, 228) 100.2%);
+  margin:auto;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  text-align:center;
+  max-width: 1000px;
+}
+.header{
+  background-image:url('/assets/illinois/unnamed (2).jpg');
+  background-size: cover;
+  object-fit:cover;
+  width: 100%
+  height:auto;
+
+}
+
+.
+
+.header h1 {
+  color: white;
+  padding: 5em;
+}
+h1{
+  background: radial-gradient(circle at 10% 20%, rgb(98, 114, 128) 0%, rgb(52, 63, 51) 90.1%);
+  margin: 5em;
+  color:white;
+}
+
+.gallery-layout {
+  display:flex;
+  flex-wrap: wrap;
+  gap: .5em;
+  justify-content: center;
+}
+img{
+  object-fit:cover;
+  height: 170px;
+  width: 200px;
+}
+img:hover{
+  height:250px;
+  width:200px;
+}
+  .p1{
+    align-items:center;
+    margin:40px;
+    font-size:17px; 
+  }
+  .p2{
+    align-items:center;
+    margin:40px;
+    font-size:17px;
+  }
+  .container20{
+    background: radial-gradient(circle at 0% 0.5%, rgb(241, 241, 242) 0.1%, rgb(224, 226, 228) 100.2%);
+
+    margin:auto;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    text-align:center;
+    max-width: 1000px;
+  }
+  .p21{
+    align-items:center;
+    margin:40px;
+    font-size:17px; 
+  }
+  .p22{
+    align-items:center;
+    margin:40px;
+    font-size:17px; 
+  }
+  .gallery-layout20{
+    display:flex;
+    flex-wrap: wrap;
+    gap: .5em;
+    justify-content: center;
+  }
+  .container30{
+    background: radial-gradient(circle at 0% 0.5%, rgb(241, 241, 242) 0.1%, rgb(224, 226, 228) 100.2%);
+
+    margin:auto;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    text-align:center;
+    max-width: 1000px;
+  }
+  .p31{
+    align-items:center;
+    margin:40px;
+    font-size:17px; 
+  }
+  .p32{
+    align-items:center;
+    margin:40px;
+    font-size:17px; 
+  }
+  .gallery-layout30{
+    display:flex;
+    flex-wrap: wrap;
+    gap: .5em;
+    justify-content: center;
+  }
+  
+}

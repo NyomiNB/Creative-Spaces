@@ -1,0 +1,84 @@
+ .navBar{
+ background-color: #27187E;
+display: flex;
+  justify-content: space-evenly;
+ }
+   .navBar a{
+     color:white;
+  text-decoration: none;
+ text-align: center;
+  font-size: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+   }
+.navBar a:hover{
+   color:pink;
+}
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background: orange;
+  font-family: newyorkfontREG;
+
+}
+.container{
+  background:white;
+  margin:auto;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  text-align:center;
+  max-width: 1000px;
+}
+.header{
+  background-image:url('/assets/newyork/newyorkbg.jpg');
+  background-size: cover;
+
+}
+h1 {
+  color: white;
+  margin: 5em;
+  background:black;
+  font-family: newyorkfontBOLD;
+}
+
+.gallery-layout {
+  display:flex;
+  flex-wrap: wrap;
+  gap: .5em;
+  justify-content: center;
+}
+
+.organization, .get-started {
+  padding: 1em;
+}
+
+img {
+  width:200px;
+  height:200px;
+  object-fit: contain;
+  transition: .25s ease-in;
+}
+
+img:hover {
+  transform: scale(1.1);
+}
+
+@font-face {
+  font-family: newyorkfontREG;
+  src: url(/assets/fonts/Montserrat-Regular.ttf);
+}
+
+@font-face {
+  font-family: newyorkfontBOLD;
+  src: url(/assets/fonts/Montserrat-Bold.ttf);
+}
+
+.page {
+  text-decoration:none;
+  color: white;
+  background:black;
+}

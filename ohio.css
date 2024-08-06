@@ -1,0 +1,335 @@
+ html {
+  height: 100%;
+  width: 100%;
+}
+.overlayText{
+ text-align:left;  
+ top:9%;
+font-size: 15px;
+  color: white;
+position: absolute;
+background-color: black;
+}
+.overlayText:hover{
+  letter-spacing: 2px;
+ text-align:left;  
+ top:9%;
+font-size: 15px;
+  color: white;
+position: absolute;
+background-color: black;
+}
+
+body{
+font-family: toledofontREG;
+}
+button{
+border:none;
+  font-family: toledofontREG;
+
+  color:white;
+background-color:  #27187E;
+  font-size: 20px;
+}
+button:hover{
+  font-family: toledofontREG;
+    color:white;
+   background-color:  #1667e1;
+cursor:pointer;
+  font-size: 20px;
+
+}
+h1:hover{
+color:#1667e1;
+
+ background-color:white;
+}
+.navBar{
+ background-color: #27187E;
+display: flex;
+  justify-content: space-evenly;
+ }
+h5{
+font-size: 20px;
+  }
+h4{
+  font-size: 25px;
+
+  font-family: toledofontBOLD;
+}
+h2{
+       font-size: 30px;
+
+  font-family: toledofontBOLD;
+}
+h3{
+      font-size: 27px; 
+  font-family: toledofontBOLD;
+}
+p{
+  font-family: toledofontREG;
+
+}
+h2:hover{
+transform:scale(1.25);
+
+ }     
+
+.gallery img{
+  width:250px;
+  height:180px;
+    padding: 0px;
+padding-bottom:  0px; 
+}
+.gallery{
+color: white;
+background-color: #5171a5;
+}
+.gallery2{
+color: white;
+background-color: #d0637C;
+
+}
+.gallery2 img{
+  width:250px;
+   object-fit:cover;
+  height:180px;
+  padding:  0px; 
+
+ }
+   
+.gallery3 img{
+  width:250px;
+   object-fit:fill;
+  height:180px;
+   }
+ .gallery4 img{
+  width:300px;
+   object-fit:cover;
+  height:180px;
+   }
+.gallery5 img{
+  width:300px;
+   object-fit:fit;
+  height:180px;
+   
+      }
+.gallery5  {
+  color:white;
+background-color: #5171a5;
+   }
+
+.gallery3 {
+  color:white;
+background-color: #643b94;
+}
+.gallery4{
+  color:white;
+background-color: #44576d;
+
+}
+   .navBar a{
+  color:white;
+  text-decoration: none;
+ text-align: center;
+  font-size: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+   }
+.navBar a:hover{
+   color:pink;
+}
+body {
+  /* background: #5171a5;
+
+  background:#9ab893*/
+  background:#3f3047
+} 
+ .container{
+  background:white;
+  margin:auto;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  text-align:center;
+  max-width: 1000px;
+ 
+}
+
+.header{
+  object-fit: cover;
+      background-image:url('/assets/toledo/toledo.jpeg');
+  background-size: cover;
+ 
+}
+.h2:hover{
+transform(0.5x);
+}
+ h1{
+ margin: 5em;
+/*background:  #3f3047; */ 
+ background:  #5171a5;  
+color: white;
+}
+h1:hover{
+ color:pink;
+  background:#5171a5;
+}
+.gallery-layout {
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: .5em;
+  justify-content: center;
+  align-items: center;
+  margin-inline-start: 20px;
+}
+@font-face {
+  font-family: toledofontREG;
+  src: url(/assets/fonts/Montserrat-Regular.ttf);
+}
+.redbird1:hover{
+border:   2px solid pink;
+    height:180px;
+
+}
+.redbird2:hover{
+border:   2px solid pink;
+    height:180px;
+
+}
+ 
+.redbird3:hover{
+    height:180px;
+
+border:   2px solid pink;
+  }
+.redbird4:hover{
+    height:180px;
+
+border:   2px solid pink;
+}
+
+.redbirdlogo:hover{
+    height:180px;
+
+border:   2px solid pink;
+}
+.art1:hover{
+    height:180px;
+
+border:   2px solid #ffffff;
+}
+.art2:hover{
+    height:180px;
+
+border:   2px solid white;
+}
+ 
+.art3:hover{
+    height:180px;
+
+border:   2px solid white;
+  }
+.art4:hover{
+    height:180px;
+
+border:   2px solid floralwhite;
+}
+
+.art5:hover{
+   height:180px;
+border:   2px solid white;
+}
+.art6:hover{
+    height:180px;
+
+border:   2px solid white;
+}
+
+.orch1:hover {
+    height:180px;
+
+ border:   2px solid white;
+}
+.orch2:hover {
+    height:180px;
+
+border:   2px solid white;
+}
+.orch3:hover {
+border:   2px solid white;
+    height:180px;
+
+}
+
+.orch4:hover {
+    height:180px;
+
+border:   2px solid white;
+}
+.orch5:hover {
+    height:180px;
+
+border:   2px solid white;
+}
+.orch6:hover {  
+  height:180px; 
+border:   2px solid white;
+}
+
+/* hi hi! fixed the spacing issue! just needed to adjust the height of the image! */
+.ballet1:hover {
+border: 2px solid white;
+  height: 180px; /*i put this for every ballet class*/
+}
+.ballet2:hover {
+border:   2px solid white;
+  height: 180px;
+}
+.ballet3:hover {
+border:   2px solid white;
+  height: 180px;
+}
+.ballet4:hover {
+border:   2px solid white;
+  height: 180px;
+}
+.ballet5:hover {
+border:   2px solid white;
+  height: 180px;
+}
+.ballet6:hover {
+border:   2px solid white;
+  height: 180px;
+}
+.sylv1:hover {
+border:   2px solid white;
+  height: 180px;
+}
+.sylv2:hover {
+    height:180px;
+border:   2px solid white;
+}
+.sylv3:hover {
+    height:180px;
+border:   2px solid white;
+}
+.sylv4:hover {
+  height:180px;
+
+border:   2px solid white;
+}
+.sylv5:hover {
+    height:180px;
+border:   2px solid white;
+}
+.sylv6:hover {
+    height:180px;
+border:   2px solid white;
+}
+
+@font-face {
+  font-family: toledofontBOLD;
+  src: url(/assets/fonts/Montserrat-Bold.ttf);
+}
