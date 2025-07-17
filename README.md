@@ -1,4 +1,4 @@
-#Creative Spaces
+## Creative Spaces
 
 ## ~ Local artists and creative outlets all in one place ~
 Created during the Web Dev Kode with Klossy camp with three other scholars!
