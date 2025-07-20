@@ -1,4 +1,5 @@
 # [Creative Spaces](https://youtu.be/ooA8pHMOYhQ)
+<img width="1523" height="437" alt="Screenshot 2025-07-17 190550" src="https://github.com/user-attachments/assets/be2b32f5-feb7-4c16-a9a7-bd1955a30695" />
 
 ## ~ Local artists and creative outlets all in one place ~
 Created during the Web Dev Kode with Klossy camp with three other scholars!
@@ -7,10 +8,16 @@ Created during the Web Dev Kode with Klossy camp with three other scholars!
 Our website provides users with the opportunity to support their local art organizations, and provides resources for them to create art of their own!  
 
 The site includes organizations from:
-- Florida
-- Illinois
-- New York
 - Ohio
+<img width="1663" height="849" alt="Screenshot 2025-07-19 202427" src="https://github.com/user-attachments/assets/3f553799-cf8c-4f6c-95c7-d9641f8cc7aa" />
+
+*  Illinois
+<img width="1373" height="834" alt="Screenshot 2025-07-19 202949" src="https://github.com/user-attachments/assets/386c2ead-0d80-4805-8d2a-c4d4739bacd3" />
+
+- New York
+<img width="1669" height="840" alt="Screenshot 2025-07-19 202503" src="https://github.com/user-attachments/assets/9cb3f2fd-1ac5-4617-83f5-5e35fc38cff8" />
+
+- Florida
 
 And includes art forms such as:
 - Music
